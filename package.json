@@ -1,0 +1,39 @@
+{
+  "name": "modiet",
+  "version": "1.3.0",
+  "description": "a code generator to generate nest template files and typescript definition files",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "ts-node demo/index.ts",
+    "build": "rimraf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreidaFarrell/modiet.git"
+  },
+  "keywords": [
+    "possimus",
+    "eos",
+    "quos",
+    "officia",
+    "commodi",
+    "codeGen"
+  ],
+  "author": "ArielleLind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FreidaFarrell/modiet.git/issues"
+  },
+  "dependencies": {
+    "@types/node": "^12.0.12",
+    "eiusfacere": "^1.0.0",
+    "teneturarchitecto": "^1.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  }
+}
